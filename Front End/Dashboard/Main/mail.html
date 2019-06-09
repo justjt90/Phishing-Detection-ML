@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="Neon Admin Panel" />
+<meta name="author" content="Laborator.co" />
+<link rel="icon"
+	href="https://demo.neontheme.com/assets/images/favicon.ico">
+<title>My Web | VDETECT</title>
+<link rel="stylesheet"
+	href="../../assets/js/jquery-ui/css/no-theme/jquery-ui-1.10.3.custom.min.css"
+	id="style-resource-1">
+<link rel="stylesheet"
+	href="../../assets/css/font-icons/entypo/css/entypo.css"
+	id="style-resource-2">
+<link rel="stylesheet"
+	href="http://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic"
+	id="style-resource-3">
+<link rel="stylesheet" href="../../assets/css/bootstrap.css"
+	id="style-resource-4">
+<link rel="stylesheet" href="../../assets/css/neon-core.css"
+	id="style-resource-5">
+<link rel="stylesheet" href="../../assets/css/neon-theme.css"
+	id="style-resource-6">
+<link rel="stylesheet" href="../../assets/css/neon-forms.css"
+	id="style-resource-7">
+<link rel="stylesheet" href="../../assets/css/custom.css"
+	id="style-resource-8">
+<script src="../../assets/js/jquery-1.11.3.min.js"></script>
+<script src="../../assets/js/mail.js"></script>
+
+<!-- Imported styles on this page -->
+<link rel="stylesheet" href="../../assets/js/jvectormap/jquery-jvectormap-2.0.3.css" id="style-resource-1">
+<link rel="stylesheet" href="../../assets/js/rickshaw/rickshaw.min.css" id="style-resource-2">
+<script src="../../assets/js/gsap/TweenMax.min.js"id="script-resource-1"></script>
+<script src="../../assets/js/jquery-ui/js/jquery-ui-1.10.3.minimal.min.js" id="script-resource-2"></script>
+<script src="../../assets/js/bootstrap.js" id="script-resource-3"></script>
+<script src="../../assets/js/joinable.js" id="script-resource-4"></script>
+<script src="../../assets/js/resizeable.js" id="script-resource-5"></script>
+<script src="../../assets/js/neon-api.js" id="script-resource-6"></script>
+<script src="../../assets/js/cookies.min.js" id="script-resource-7"></script>
+<script src="../../assets/js/jvectormap/jquery-jvectormap-2.0.3.min.js" id="script-resource-8"></script>
+<script src="../../assets/js/jvectormap/jquery-jvectormap-world-mill.js" id="script-resource-9"></script>
+<script src="../../assets/js/jquery.sparkline.min.js" id="script-resource-10"></script>
+<script src="../../assets/js/rickshaw/vendor/d3.v3.js" id="script-resource-11"></script>
+<script src="../../assets/js/rickshaw/rickshaw.min.js" id="script-resource-12"></script>
+<script src="../../assets/js/raphael-min.js" id="script-resource-13"></script>
+<script src="../../assets/js/morris.min.js" id="script-resource-14"></script>
+<script src="../../assets/js/toastr.js" id="script-resource-15"></script>
+<script src="../../assets/js/fullcalendar/fullcalendar.min.js" id="script-resource-16"></script>
+<script src="../../assets/js/neon-chat.js" id="script-resource-17"></script>
+<!-- JavaScripts initializations and stuff -->
+<script src="../../assets/js/neon-custom.js" id="script-resource-18"></script>
+<!-- Demo Settings -->
+<script src="../../assets/js/neon-demo.js" id="script-resource-19"></script>
+<script src="../../assets/js/neon-skins.js" id="script-resource-20"></script>
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push([ '_setAccount', 'UA-28991003-7' ]);
+_gaq.push([ '_setDomainName', 'demo.neontheme.com' ]);
+_gaq.push([ '_trackPageview' ]);
+(function() {
+	var ga = document.createElement('script');
+	ga.type = 'text/javascript';
+	ga.async = true;
+	ga.src = ('https:' == document.location.protocol ? 'https://ssl'
+			: 'http://www')
+			+ '.google-analytics.com/ga.js';
+	var s = document.getElementsByTagName('script')[0];
+	s.parentNode.insertBefore(ga, s);
+})();
+</script>
+
+
+</head>
+<body class="page-body page-fade gray"
+	data-url="https://demo.neontheme.com">
+
+	<div class="page-container">
+		<div class="sidebar-menu">
+			<div class="sidebar-menu-inner">
+				<header class="logo-env">
+					<div class="logo">
+						<a href="home.html"> <img
+							src="../../assets/images/logo@3x.png" width="80" height="80"
+							alt="" />
+						</a>
+					</div>
+					<div class="sidebar-collapse">
+						<a href="#" class="sidebar-collapse-icon"> <i
+							class="fa fa-bars" style="font-size: 24px"></i> <i
+							class="entypo-menu"></i>
+						</a>
+					</div>
+					<div class="sidebar-mobile-menu visible-xs">
+						<a href="#" class="with-animation"> <i class="entypo-menu"></i>
+						</a>
+					</div>
+				</header>
+				<ul id="main-menu" class="main-menu">
+					<li class=""><a href="home.html"> <i
+							class="fa fa-address-card" style="font-size: 24px"></i><span
+							class="title"><font size="3">Dashboard</font></span></a></li>
+
+					<li class="active"><a href="mail.html"><i
+							class="fa fa-telegram" style="font-size: 24px"></i> <i
+							class="entypo-monitor"></i><span class="title"><font
+								size="3">Mail Phishing</font></span></a></li>
+
+					<li><a href="wiki.html"><i class="fa fa-wikipedia-w"
+							style="font-size: 20px"></i><i class="entypo-chart-bar"></i><span
+							class="title"><font size="3">Phishing (Wiki)</font></span></a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="main-content">
+			
+
+				<!-- Search button -->
+			<div class="row" style="margin: 30px;">
+				<a><h3>Detect with Header</h3></a>
+				<form method="get" id="header_form" class="search-bar" action="#" enctype="application/x-www-form-urlencoded">
+					
+					<div><textarea id="mail_header" class="form-control input-lg" name="search"placeholder="Copy your email header here..." style="height: 300px;"></textarea></div>
+					
+					<button style="margin-top: 15px;" id="mail_submit" type="submit" class="btn btn-lg btn-primary btn-icon">Search <i class="entypo-search"></i></button>
+					<img id="gif_mail" class="input-group" style="display: none; margin-top: 15px;" src="../../assets/images/loader-1.gif">	<br>
+					<button type="submit" class="btn btn-lg btn-primary btn-icon" style="margin-top: 15px;">Know more about mail phishing <i class="entypo-search"></i></button>
+				</form>
+			</div>
+
+
+			<div class="row" id="mail_info_row" style="margin: 15px;">
+				
+				<div class="col-lg-12 col-lg-6" style="height: 310px">
+					<div class="tile-stats tile-white stat-tile" style="height: 310px; background-color: #303641;">
+						<h3 style="color: white;">Source Address</h3>
+						<div class="map" id="map-2" style="height: 250px; margin-top: 20px;"></div>
+					</div>
+				</div>
+
+				<div class="col-lg-12 col-lg-3" style="height: 310px">
+					<div style="background-color: #303641; padding: 5px;">
+						<center><h3 style="color: white;">Mail Source</h3></center>
+						<div style="background-color: #FFFFFF; margin-top: 20px;">
+							<table class="table borderless">
+							
+									<tr><td align="center"  class="key"> Source IP</td></tr>
+									<tr><td align="center" id="ip" class="value">209.85.220.41</td></tr>
+									<tr><td align="center" class="key"> Source Hostname</td></tr>
+									<tr><td align="center" id="hostname" class="value">mail-sor-f41.google.com</td></tr>
+									<tr><td align="center" class="key"> Source Organization</td></tr>
+									<tr><td align="center" id="organization" class="value">Google LLC</td></tr>
+							</table>
+							
+							
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-12 col-lg-3" style="height: 310px">
+					<div style="background-color: #303641; padding: 5px;">
+						<center><h3 style="color: white;">Mail Protocols</h3></center>
+						<div style="background-color: #FFFFFF; margin-top: 20px;">
+							<table class="table borderless">
+							
+									<tr><td align="center" class="key"> SPF</td></tr>
+									<tr><td align="center" id="SPF" class="value"> pass</td></tr>
+									<tr><td align="center" class="key"> DKIM</td></tr>
+									<tr><td align="center" id="DKIM" class="value"> pass</td></tr>
+									<tr><td align="center" class="key"> DMARC</td></tr>
+									<tr><td align="center" id="DMARC" class="value"> pass</td></tr>
+							</table>
+							
+							
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row" id="time_row" style="margin: 30px;">
+				<p id = "time"> Delivered after <span id="amc"><span id ="amc_ch">1</span></span> delay</p>
+			</div>
+
+			<div class="row" id="check_row" style="margin: 30px;">
+				<p id = "check_mess"> Checking for URLs in Mail...</p>
+			</div>
+
+			<div class="row" id="count_row" style="margin: 30px; margin-bottom: 10px;">
+				<p id = "count_url"> Number of URLs found in Mail: <span id="dmc">3</span></p>
+			</div>
+
+			<div class="row" id="url_row" style="margin-left: 30px;">
+				<!--<a href="https://www.google.com" class="url_good">https://www.google.com<a><br>
+				<a href="https://www.google.com" class="url_bad">https://www.google.com<a>-->
+			</div>
+
+			
+		</div>
+	</div>
+
+	<script type="text/javascript"> 
+			$("#map-2").vectorMap({
+				map : 'world_mill',
+				zoomMin : '1',
+				backgroundColor : '#888888',
+				focusOn : {
+					x : 0.5,
+					y : 0.7,
+					scale : 1
+				},
+				markers : [ [ 12.942, 6.972 ], [ 42.6683, 21.164 ], [ 41.3861, 2.173 ] ],
+				markerStyle : {
+					initial : {
+						fill : '#ff4e50',
+						stroke : '#ff4e50',
+						"stroke-width" : 6,
+						"stroke-opacity" : 0.3,
+					}
+				},
+				zoomMax : 1,
+				regionStyle : {
+					initial : {
+						fill : '#e9e9e9',
+						"fill-opacity" : 1,
+						stroke : 'none',
+						"stroke-width" : 0,
+						"stroke-opacity" : 1
+					},
+					hover : {
+						"fill-opacity" : 0.8
+					},
+					selected : {
+						fill : 'yellow'
+					},
+					selectedHover : {}
+				},
+				labels: 
+					{
+					    markers: 
+					    {
+					        render: function(code)
+					        {
+					          return code;
+					        },
+				            offsets: function(code){
+				              return [0,0];
+				          	}
+				        
+					    }
+					}
+				});
+		</script>
+
+</body>
+</html>

@@ -1,0 +1,66 @@
+/**
+ *
+ * Apply Here your Custom CSS
+ *
+*/
+
+td
+{
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.key
+{
+	color:#1F232A;
+}
+
+.value
+{
+	color:green;
+}
+
+
+#time,#check_mess,#count_url
+{
+	color:#1F232A;
+	font-size: 20px;
+}
+
+#amc,#dmc
+{
+	font-weight: bold;
+	color: green;
+}
+
+.url_good
+{
+	color: green;
+	font-size: 17px;
+}
+
+.url_bad
+{
+	color: red;
+	font-size: 17px;
+}
+
+
+#features_row,#time_row,#check_row,#count_row,#url_row
+{
+	display: none;
+}
+
+#mail_info_row
+{
+	visibility: hidden;
+}
+#server_row
+{
+	display: none;
+}
+
+#result_row
+{
+	display: none;
+}
